@@ -3,6 +3,13 @@
   margin: 0 auto;
 }
 
+a,
+button {
+  transition-property: color, background-color, border, fill, box-shadow;
+  transition: 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -190,7 +197,7 @@ a[href^="tel:+1212-772-4150"] {
   top: 80px;
   background: #2f303a;
   background: linear-gradient(right, red, blue);
-  background-image: url("/images/Img.jpg");
+  background-image: url(../images/Img.jpg);
 }
 
 .hero-main-title {
